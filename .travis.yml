@@ -8,5 +8,5 @@ addons:
       ant
 
 script:
-  - ant CalculadoraTest
-  - ant Calculadora
+  - ant src\CalculadoraTest
+  - ant src\Calculadora
