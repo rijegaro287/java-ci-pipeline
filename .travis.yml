@@ -2,6 +2,10 @@ dist: xenial
 
 language: java
 
+addons:
+  apt:
+    packages:
+      ant
+
 script:
   - ant main
-  - sonar-scanner
