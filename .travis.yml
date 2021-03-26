@@ -2,6 +2,9 @@ dist: xenial
 
 language: java
 
+before_script:
+  - sudo apt-get install ant-optional
+
 addons:
   apt:
     packages:
