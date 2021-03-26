@@ -1,8 +1,19 @@
+dist: xenial
+
+language: java
+
+jdk:
+  -oraclejdk16
+
 addons:
+  apt:
+    packages:
+      - ant
+
   sonarcloud:
-    organization: "sonarcloud_organization_key" # the key of the org you chose at step #3
+    organization: "rijegaro777"
     token:
-      secure: "*********" # encrypted value of your token
+      secure:"FkNfC/fvfgIjnb88fwo+sD3D6YmR8l7Sc41v1mXrmkT7bxR4VxlmaxPvXBKNuEBvOJYf3C8gfMcfelDatQ0OTi6UaV/lfN9U7jrMVPqWP1JPDPmQkfu6nfjsAX9sprod9dVmewyfByvkdmXz73KXWs029FDOsTi5Lx7Z7Oc8qh7zNXL4N6J9w8fA7bimRBf1Y/O7m3MiPsQ6BYa/bpNKGMyzB1YgdLAQq31AgC3upIToZBMZ8EwK3frLvfCj8b+qnIb03JhOUStAkAFGHiR5OtsUWqlG8Oh821C/MV2X2qR6nMO0xNrZrzX5nRRI/y88RWgD6QeVx+Y7BfN/SOLsQgbVl0M49WSO5xgBHW4gHKnAE1M1/bdWN3losNpWV+pHYi2+xC1b0mcXo/IJt2IPthpJG9zqIDNaEAjvZ4nwn3V0cGmVPMsocvJRivLImvMLBTYQ7hElSjSn6fZrnQEg6O7YrPps+Rjh2yq/vZsWZaqpzRcF7V/z9v0ort61SYJY+SjqIkAsrbQjtdacLEwdlJDV63ibSjuMZWp6619deCqt+CXGY/um4u4LbNhDh+w6I/f9PUTYgTubZQs/tmJhvnjfT3kXs3zCGQmvFZljCb1XzE3nnV5DAEgT7Mg8eXaIxCzyGWBLPJYNdaDBPW8m7l1SdjJKSNHdFzdEiPu2kb8="
 script:
-  # other script steps might be done before running the actual analysis
+  - ant
   - sonar-scanner
