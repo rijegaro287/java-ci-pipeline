@@ -12,17 +12,11 @@
         <fileset dir="${lib.dir}" includes="**/*.jar" />
     </path>
 
-
-    <target name="resolve">
-        <ivy:retrieve/>
-    </target>
-
     <!-- Deletes the existing build, docs and dist directory-->
     <target name="clean">
         <delete dir="${build.dir}" />
         <delete dir="${docs.dir}" />
         <delete dir="${dist.dir}" />
-        <delete dir="${lib.dir}" />
     </target>
 
     <!-- Creates the  build, docs and dist directory-->
@@ -33,7 +27,7 @@
     </target>
 
     <!-- Compiles the java code (including the usage of library for JUnit -->
-    <target name="compile" depends="makedir, resolve">
+    <target name="compile" depends="makedir">
         <javac includeantruntime="false" srcdir="${src.dir}" destdir="${build.dir}">
             <classpath refid="classpath"/>
         </javac>
