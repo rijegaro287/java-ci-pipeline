@@ -20,6 +20,7 @@ public class Calculadora {
         for (int i = 0; i < exponente; i++) {
             resultado *= base;
         }
+        
         return resultado;
     }
 }
