@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1169408e-9973-41a9-b37e-941b38f6dba4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/java-ci-pipeline.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dist/java-ci-pipeline.jar" afterDir="false" />
-    </list>
+    <list default="true" id="1169408e-9973-41a9-b37e-941b38f6dba4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +147,7 @@
       <workItem from="1616782094284" duration="6791000" />
       <workItem from="1616789501623" duration="705000" />
       <workItem from="1616790389176" duration="996000" />
-      <workItem from="1616791554538" duration="4021000" />
+      <workItem from="1616791554538" duration="4325000" />
     </task>
     <servers />
   </component>
