@@ -8,4 +8,5 @@ addons:
       ant
 
 script:
-  - ant
+  - ant CalculadoraTest
+  - ant Calculadora
