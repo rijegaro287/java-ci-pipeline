@@ -22,6 +22,7 @@ public class CalculadoraTest {
         assertEquals(-1.25, Calculadora.dividir(-5, 4),0);
         assertEquals(1053.75, Calculadora.dividir(8430, 8),0);
     }
+
     @Test
     public void potencias() {
         assertEquals(625, Calculadora.potencias(-5, 4),0);

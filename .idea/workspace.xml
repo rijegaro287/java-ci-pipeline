@@ -147,8 +147,16 @@
       <workItem from="1616782094284" duration="6791000" />
       <workItem from="1616789501623" duration="705000" />
       <workItem from="1616790389176" duration="996000" />
-      <workItem from="1616791554538" duration="4623000" />
+      <workItem from="1616791554538" duration="5425000" />
     </task>
+    <task id="LOCAL-00001" summary="Prueba">
+      <created>1616797005358</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616797005358</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +176,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Prueba" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prueba" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_ci_pipeline$CalculadoraTest.ic" NAME="CalculadoraTest Coverage Results" MODIFIED="1616787652064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
