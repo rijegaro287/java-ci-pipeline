@@ -1,7 +1,6 @@
 dist: xenial
 
 language: java
-os: windows
 
 addons:
   apt:
@@ -9,4 +8,4 @@ addons:
       ant
 
 script:
-  - ant main
+  - ant
